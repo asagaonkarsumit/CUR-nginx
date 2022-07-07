@@ -17,7 +17,7 @@ RUN mkdir -p  /app/ssl-folder
 
 
 
-# COPY privkey.pem  /etc/nginx/ssl/
+COPY privkey.pem  /etc/nginx/ssl/
 
-# COPY fullchain.pem /etc/nginx/ssl/
+COPY fullchain.pem /etc/nginx/ssl/
 
